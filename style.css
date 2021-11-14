@@ -1,0 +1,83 @@
+/* General rules */
+*{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Header */
+.header{
+    height: 100px;
+    background-color: darkcyan;
+    padding: 10px 50px ;
+    justify-content: space-between;
+    margin: 0px 20px;
+    border-radius: 7px;
+    border: 3px solid grey;
+}
+.search{
+    border:2px solid black;
+    border-radius: 7px;
+    
+}
+.login{
+    background-color: black;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+}
+.login:hover{
+    background-color: darkgoldenrod;
+}
+/* Body */
+.col1, .col2{
+    height: 1500px;
+    margin: 20px;
+    padding: 10px 50px ;
+}
+.col1{
+    flex: 3;
+}
+.col2{
+    flex: 2;
+    /* background-color: grey; */
+
+}
+.box, .box1{
+    background-color: gray;
+    height: 250px;
+    border: 10px groove darkcyan;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px gray;
+    margin-bottom: 35px;
+}
+.likes{
+    background-color: black;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.box1{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.definition{
+    background-color: black;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+#appear{
+    color:black;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header flex">
+        <h1>Dojonary</h1>
+        <input type="search" class="search"placeholder="Search Here">
+        <button class="login" onclick="change(this)">Sign In</button>
+    </div>
+    <div class="body flex">
+        <div class="col1">
+            <div class="box flex">
+                <div class="name ">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: <em>ninjas</em></h4>
+                    <button class="likes" onclick="change2()"> 13 Likes</button>
+                </div>
+                <div>
+                    <h3>A practitioner skilled in the <br>
+                    <a href="#">Japanese</a> art of <a href="#">ninjitsu</a></h3>
+                </div>
+            </div>
+            <div class="box flex">
+                <div class="name">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: <em>ninjas</em></h4>
+                    <button class="likes" onclick="change2()"> 37 Likes</button>
+                </div>
+                <div>
+                    <h3>
+                        A <a href="#">programmer</a> who breaks<br>
+                        down problems with <a href="#">zen</a>-like<br>
+                        focus
+                    </h3>
+            </div>
+            </div>
+        </div>
+        <div class="col2">
+            <div class="box1">
+                <h2>
+                    Dojonary is<br>
+                    definied by <bold>YOU</bold>
+                </h2>
+                <div id="gone">
+                    <button class="definition" onclick="disappear()">Add Definition</button>  
+                </div>
+                <p id="appear"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
