@@ -79,6 +79,14 @@
     border-radius: 7px;
     margin-top: 20px;
 }
+.definition2{
+    background-color: black;
+    color:white;
+    width: 120px;
+    height: 30px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
 #appear{
     color:black;
 }
